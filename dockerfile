@@ -1,4 +1,4 @@
-FROM node 
+FROM node:22-alpine
 COPY . .
 RUN : npm install
 CMD [ "node""index.js" ]
