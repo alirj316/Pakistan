@@ -1,5 +1,6 @@
 FROM node:22-alpine
 COPY . .
 RUN : npm install
-CMD [ "node""index.js" ]
 EXPOSE 3000
+CMD [ "node""index.js" ]
+
